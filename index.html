@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Motos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #ff5733;
+        }
+        .catalogo {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .moto {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+        }
+        .moto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .moto h2 {
+            color: #2a9d8f;
+        }
+        .moto p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .moto span {
+            font-weight: bold;
+            color: #e76f51;
+        }
+        .pedido {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .pedido a {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .pedido a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>LAS MOTOS A GAS MODERNAS</h1>
+    
+    <div class="catalogo">
+        <div class="moto">
+            <img src="moto01.jpg" alt="KAWASAKI MILENIUM">
+            <h2>KAWASAKI MILENIUM</h2>
+            <p>Precio: <span>USD 3,500</span></p>
+        </div>
+        <div class="moto">
+            <img src="moto02.jpg" alt="KAWASAKI UNIVERSAL">
+            <h2>KAWASAKI UNIVERSAL</h2>
+            <p>Precio: <span>USD 4,200</span></p>
+        </div>
+        <div class="moto">
+            <img src="moto03.jpg" alt="KAWASAKI SPACE">
+            <h2>KAWASAKI SPACE</h2>
+            <p>Precio: <span>USD 4,500</span></p>
+        </div>
+    </div>
+
+    <div class="pedido">
+        <h2>Solicita tu Pedido</h2>
+        <a href="https://wa.me/51926156829?text=Quiero%20más%20información%20sobre%20las%20motos" target="_blank">
+            Pedir por WhatsApp
+        </a>
+    </div>
+</body>
+</html>
